@@ -1,0 +1,12 @@
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\bin\Debug\net5.0\ApiRestGenerica.Abstraction.deps.json
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\bin\Debug\net5.0\ApiRestGenerica.Abstraction.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\bin\Debug\net5.0\ref\ApiRestGenerica.Abstraction.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\bin\Debug\net5.0\ApiRestGenerica.Abstraction.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.csproj.AssemblyReference.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.AssemblyInfoInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.AssemblyInfo.cs
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.csproj.CoreCompileInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ref\ApiRestGenerica.Abstraction.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Abstraction\obj\Debug\net5.0\ApiRestGenerica.Abstraction.pdb

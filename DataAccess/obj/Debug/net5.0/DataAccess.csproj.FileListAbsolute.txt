@@ -1,0 +1,17 @@
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\DataAccess.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\ApiRestGenerica.Entities.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\ApiRestGenerica.Services.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\ApiRestGenerica.Entities.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\bin\Debug\net5.0\ApiRestGenerica.Services.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+G:\Programacion\ASP Net\ApiRestGenerica\DataAccess\obj\Debug\net5.0\DataAccess.pdb

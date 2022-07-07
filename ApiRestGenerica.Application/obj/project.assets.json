@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ApiRestGenerica.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        }
+      },
+      "ApiRestGenerica.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Entities.dll": {}
+        }
+      },
+      "ApiRestGenerica.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0",
+          "ApiRestGenerica.Entities": "1.0.0",
+          "ApiRestGenerica.Services": "1.0.0",
+          "DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Repository.dll": {}
+        }
+      },
+      "ApiRestGenerica.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Services.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ApiRestGenerica.Entities": "1.0.0",
+          "ApiRestGenerica.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiRestGenerica.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj",
+      "msbuildProject": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj"
+    },
+    "ApiRestGenerica.Entities/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Entities/ApiRestGenerica.Entities.csproj",
+      "msbuildProject": "../ApiRestGenerica.Entities/ApiRestGenerica.Entities.csproj"
+    },
+    "ApiRestGenerica.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Repository/ApiRestGenerica.Repository.csproj",
+      "msbuildProject": "../ApiRestGenerica.Repository/ApiRestGenerica.Repository.csproj"
+    },
+    "ApiRestGenerica.Services/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Services/ApiRestGenerica.Services.csproj",
+      "msbuildProject": "../ApiRestGenerica.Services/ApiRestGenerica.Services.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ApiRestGenerica.Abstraction >= 1.0.0",
+      "ApiRestGenerica.Entities >= 1.0.0",
+      "ApiRestGenerica.Repository >= 1.0.0",
+      "ApiRestGenerica.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fernando\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Application\\ApiRestGenerica.Application.csproj",
+      "projectName": "ApiRestGenerica.Application",
+      "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Application\\ApiRestGenerica.Application.csproj",
+      "packagesPath": "C:\\Users\\fernando\\.nuget\\packages\\",
+      "outputPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj"
+            },
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj"
+            },
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Repository\\ApiRestGenerica.Repository.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Repository\\ApiRestGenerica.Repository.csproj"
+            },
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Services\\ApiRestGenerica.Services.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Services\\ApiRestGenerica.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

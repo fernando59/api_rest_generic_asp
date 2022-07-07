@@ -1,0 +1,12 @@
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ApiRestGenerica.Entities.deps.json
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ApiRestGenerica.Entities.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ref\ApiRestGenerica.Entities.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ApiRestGenerica.Entities.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.csproj.AssemblyReference.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.AssemblyInfoInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.AssemblyInfo.cs
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.csproj.CoreCompileInputs.cache
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ref\ApiRestGenerica.Entities.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.pdb

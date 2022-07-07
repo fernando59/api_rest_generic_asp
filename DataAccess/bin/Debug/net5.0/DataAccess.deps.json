@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "ApiRestGenerica.Entities": "1.0.0",
+          "ApiRestGenerica.Services": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "ApiRestGenerica.Entities/1.0.0": {
+        "runtime": {
+          "ApiRestGenerica.Entities.dll": {}
+        }
+      },
+      "ApiRestGenerica.Services/1.0.0": {
+        "runtime": {
+          "ApiRestGenerica.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiRestGenerica.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiRestGenerica.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiRestGenerica.Abstraction\ApiRestGenerica.Abstraction.csproj" />
+    <ProjectReference Include="..\ApiRestGenerica.Entities\ApiRestGenerica.Entities.csproj" />
+    <ProjectReference Include="..\ApiRestGenerica.Repository\ApiRestGenerica.Repository.csproj" />
+    <ProjectReference Include="..\ApiRestGenerica.Services\ApiRestGenerica.Services.csproj" />
+  </ItemGroup>
+
+</Project>

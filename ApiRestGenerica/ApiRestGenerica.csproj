@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>22bc4fbc-d814-40d5-9e56-cf71529f97fa</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiRestGenerica.Application\ApiRestGenerica.Application.csproj" />
+    <ProjectReference Include="..\ApiRestGenerica.Entities\ApiRestGenerica.Entities.csproj" />
+    <ProjectReference Include="..\ApiRestGenerica.Services\ApiRestGenerica.Services.csproj" />
+  </ItemGroup>
+
+</Project>

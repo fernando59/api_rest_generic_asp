@@ -148,7 +148,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj": {
+                "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -324,6 +328,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj": {
+                "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj"
+              },
               "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj": {
                 "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj"
               },

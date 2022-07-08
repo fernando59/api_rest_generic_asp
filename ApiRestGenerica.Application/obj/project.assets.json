@@ -15,6 +15,9 @@
       "ApiRestGenerica.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiRestGenerica.Entities.dll": {}
         },
@@ -52,6 +55,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0",
           "ApiRestGenerica.Entities": "1.0.0",
           "ApiRestGenerica.Services": "1.0.0"
         },

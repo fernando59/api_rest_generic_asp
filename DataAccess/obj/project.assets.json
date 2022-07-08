@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "ApiRestGenerica.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        }
+      },
       "ApiRestGenerica.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiRestGenerica.Entities.dll": {}
         },
@@ -25,6 +38,11 @@
     }
   },
   "libraries": {
+    "ApiRestGenerica.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj",
+      "msbuildProject": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj"
+    },
     "ApiRestGenerica.Entities/1.0.0": {
       "type": "project",
       "path": "../ApiRestGenerica.Entities/ApiRestGenerica.Entities.csproj",
@@ -38,6 +56,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ApiRestGenerica.Abstraction >= 1.0.0",
       "ApiRestGenerica.Entities >= 1.0.0",
       "ApiRestGenerica.Services >= 1.0.0"
     ]
@@ -69,6 +88,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj"
+            },
             "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj": {
               "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Entities\\ApiRestGenerica.Entities.csproj"
             },

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ApiRestGenerica.Entities/1.0.0": {
+        "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0"
+        },
         "runtime": {
           "ApiRestGenerica.Entities.dll": {}
+        }
+      },
+      "ApiRestGenerica.Abstraction/1.0.0": {
+        "runtime": {
+          "ApiRestGenerica.Abstraction.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ApiRestGenerica.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiRestGenerica.Abstraction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

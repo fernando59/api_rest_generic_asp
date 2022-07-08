@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ApiRestGenerica.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRestGenerica.Abstraction.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApiRestGenerica.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj",
+      "msbuildProject": "../ApiRestGenerica.Abstraction/ApiRestGenerica.Abstraction.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ApiRestGenerica.Abstraction >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\fernando\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj": {
+              "projectPath": "G:\\Programacion\\ASP Net\\ApiRestGenerica\\ApiRestGenerica.Abstraction\\ApiRestGenerica.Abstraction.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

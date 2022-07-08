@@ -10,3 +10,6 @@ G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.
 G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.dll
 G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ref\ApiRestGenerica.Entities.dll
 G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ApiRestGenerica.Abstraction.dll
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\bin\Debug\net5.0\ApiRestGenerica.Abstraction.pdb
+G:\Programacion\ASP Net\ApiRestGenerica\ApiRestGenerica.Entities\obj\Debug\net5.0\ApiRestGenerica.Entities.csproj.CopyComplete

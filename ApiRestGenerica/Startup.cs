@@ -1,5 +1,7 @@
+using ApiRestGenerica.Abstraction;
 using ApiRestGenerica.Application;
 using ApiRestGenerica.Repository;
+using DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,6 +41,7 @@ namespace ApiRestGenerica
             //Injection Dependency
             services.AddScoped(typeof(IApplication<>), typeof(Application<>));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddSingleton(typeof(IDbContext<>), typeof(DbContext<>));
 
 
         }

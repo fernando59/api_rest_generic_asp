@@ -1,4 +1,5 @@
 ﻿using ApiRestGenerica.Application;
+using ApiRestGenerica.DTOs;
 using ApiRestGenerica.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,11 +26,19 @@ namespace ApiRestGenerica.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new FootballTeam
+            return Ok(_football.GetAll());
+        }
+        
+        [HttpPost]
+        public IActionResult Save(FootballTeamDTO footballTeamDTO)
+        {
+            var footballTeam = new FootballTeam()
             {
-                Name="Fernando",
-                Score=20
-            });
+                Name = footballTeamDTO.Name,
+                Score = footballTeamDTO.Score
+            };
+            return Ok(_football.Save(footballTeam));
+
         }
 
     }

@@ -23,6 +23,9 @@
         }
       },
       "ApiRestGenerica.Entities/1.0.0": {
+        "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0"
+        },
         "runtime": {
           "ApiRestGenerica.Entities.dll": {}
         }
@@ -34,6 +37,7 @@
       },
       "DataAccess/1.0.0": {
         "dependencies": {
+          "ApiRestGenerica.Abstraction": "1.0.0",
           "ApiRestGenerica.Entities": "1.0.0",
           "ApiRestGenerica.Services": "1.0.0"
         },
